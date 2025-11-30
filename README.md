@@ -17,8 +17,8 @@ This repository is based on a university assignment. The brief required designin
 
 * **Defaults → Parser → Overrides.** `parse_args()` pulls defaults from `settings.ini`, then safely applies user overrides.
 * **Best-practice UX.** Options mirror familiar NCBI BLAST parameters; `--help` explains each flag with examples.
-* **Validation as first-class logic.** Each argument has a type + dedicated validator; the CLI transforms and checks values *before* handing them to the pipeline (see *§1.2–1.3*). 
-* **Reproducibility.** `current_arguments()` prints the resolved settings at run-time so results are traceable (example output on *p.3*). 
+* **Validation as first-class logic.** Each argument has a type + dedicated validator; the CLI transforms and checks values *before* handing them to the pipeline (see *§1.2–1.3 of Report*). 
+* **Reproducibility.** `current_arguments()` prints the resolved settings at run-time so results are traceable (example output on *p.3 of Report*). 
 
 
 ---
