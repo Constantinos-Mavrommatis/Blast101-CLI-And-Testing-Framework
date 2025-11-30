@@ -1,6 +1,6 @@
 # BLAST101 — CLI & Unittest Suite
 
-This repository is based on a university assignment. The brief required designing a **simple, well‑documented command‑line interface (CLI)** and an **automatic `unittest` suite** for a BLAST/Smith–Waterman/Stats tool. The CLI acts as a gatekeeper: it reads sensible defaults from `settings.ini`, allows safe overrides, and validates inputs early so failures are clear and fast. The test suite (Python `unittest`) covers boundary cases, error paths, and end‑to‑end runs to ensure reproducibility. The full write‑up is available under **`docs/Final_Report.pdf`** (and the original brief under **`docs/Assignment_Brief.pdf`**). This submission was awarded a **Distinction**.
+This repository is based on a university assignment. The brief required designing a **simple, well‑documented command‑line interface (CLI)** and an **automatic `unittest` suite** for a BLAST/Smith–Waterman/Stats tool. The CLI acts as a gatekeeper: it reads sensible defaults from `settings.ini`, allows safe overrides, and validates inputs early so failures are clear and fast. The test suite (Python `unittest`) covers boundary cases, error paths, and end‑to‑end runs to ensure reproducibility. The full write‑up is available under **`docs/Report.pdf`** (and the original brief under **`docs/Assignment_Brief.pdf`**). This submission was awarded a **Distinction**.
 
 ---
 
